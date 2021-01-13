@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- mobile fit -->
     <meta name="webname on google" content="coursera test portal"> <!-- for google search -->
     <meta name="robots" content="noindex, nofollow"> <!-- for google search:while testing page, don't let google find it -->
+    <script src="nameAndColor.js"></script> <!--have to include where the source code of javascript lives-->
   </header>
 
   <body>
@@ -36,10 +37,13 @@
         <p>
       <script>
       // embed javascript code in the body
-      var username = prompt("what is your name?");
-      var usercolor = prompt("what is your fav color?");
-      document.write("hello " + username + '.<br>');
-      document.write("your fav color is " + usercolor);
+      //var username = prompt("what is your name?");
+      //var usercolor = prompt("what is your fav color?");
+      //document.write("hello " + username + '.<br>');
+      //document.write("your fav color is " + usercolor);
+      
+      // call an external javascript file
+      nameAndColor();
       </script>
           </p>
       </div>
